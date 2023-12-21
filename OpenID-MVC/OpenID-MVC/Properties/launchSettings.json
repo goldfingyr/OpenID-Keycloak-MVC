@@ -4,10 +4,14 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "OpenIDRealm": "xOIDCx",
+        "OpenIDClient": "Alice",
+        "OpenIDSecret": "6zaZi58YBm24WgURUBtn5fbKVFGz8jsy",
+        "OpenIDProvider": "auth.c.ucnit.eu"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "https://localhost:7151;http://localhost:5137"
+      "applicationUrl": "https://localhost:7777;http://localhost:5225"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -15,24 +19,14 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    },
-    "Docker": {
-      "commandName": "Docker",
-      "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "environmentVariables": {
-        "ASPNETCORE_URLS": "https://+:443;http://+:80"
-      },
-      "publishAllPorts": true,
-      "useSSL": true
     }
   },
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:31844",
-      "sslPort": 44338
+      "applicationUrl": "http://localhost:10431",
+      "sslPort": 44371
     }
   }
 }
