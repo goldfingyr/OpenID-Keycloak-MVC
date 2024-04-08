@@ -71,7 +71,8 @@ namespace OpenID_MVC.Controllers
         }
 
         //A policy was defined, so authorize must use a policy instead of a role.
-        [Authorize(Policy = "users")]
+        //[Authorize(Policy = "users")]
+        [Authorize(Roles ="user")]
         public async Task<IActionResult> AuthenticationAsync()
         {
 

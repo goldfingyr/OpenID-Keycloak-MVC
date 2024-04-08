@@ -5,9 +5,12 @@
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
+        "OpenIDEndpointConfURI": "https://auth.a.ucnit.eu/realms/xOIDCx/.well-known/openid-configuration",
         "OpenIDRealm": "xOIDCx",
+        "OpenIDRealmURI": "https://auth.a.ucnit.eu/realms/xOIDCx",
+        "OpenIDTokenURI": "https://auth.a.ucnit.eu/realms/xOIDCx/protocol/openid-connect/token",
         "OpenIDClient": "Alice",
-        "OpenIDSecret": "6zaZi58YBm24WgURUBtn5fbKVFGz8jsy",
+        "OpenIDSecret": "JvDnso8O773pE9ENJdRhsrJd5pVD5Q86"
         "OpenIDProvider": "auth.c.ucnit.eu"
       },
       "dotnetRunMessages": true,
