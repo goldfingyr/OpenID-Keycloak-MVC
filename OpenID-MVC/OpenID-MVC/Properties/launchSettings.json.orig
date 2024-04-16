@@ -5,13 +5,19 @@
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
+<<<<<<< HEAD
+        "OpenIDRealm": "xOIDCx",
+        "OpenIDClient": "Alice",
+        "OpenIDSecret": "6zaZi58YBm24WgURUBtn5fbKVFGz8jsy",
+        "OpenIDProvider": "auth.c.ucnit.eu"
+=======
         "OpenIDEndpointConfURI": "https://auth.a.ucnit.eu/realms/xOIDCx/.well-known/openid-configuration",
         "OpenIDRealm": "xOIDCx",
         "OpenIDRealmURI": "https://auth.a.ucnit.eu/realms/xOIDCx",
         "OpenIDTokenURI": "https://auth.a.ucnit.eu/realms/xOIDCx/protocol/openid-connect/token",
         "OpenIDClient": "Alice",
-        "OpenIDSecret": "JvDnso8O773pE9ENJdRhsrJd5pVD5Q86",
-        "OpenIDProvider": "auth.a.ucnit.eu"
+        "OpenIDSecret": "JvDnso8O773pE9ENJdRhsrJd5pVD5Q86"
+>>>>>>> 0a4cd17 (Changed AUTH server)
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7777;http://localhost:5225"
